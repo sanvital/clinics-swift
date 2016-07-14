@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44FDE2531D357D5E00DDD92A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FDE2521D357D5E00DDD92A /* AppDelegate.swift */; };
+		44FDE2551D357D5E00DDD92A /* ClinicCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FDE2541D357D5E00DDD92A /* ClinicCollectionViewController.swift */; };
+		44FDE2581D357D5E00DDD92A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44FDE2561D357D5E00DDD92A /* Main.storyboard */; };
+		44FDE25A1D357D5E00DDD92A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44FDE2591D357D5E00DDD92A /* Assets.xcassets */; };
+		44FDE25D1D357D5E00DDD92A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44FDE25B1D357D5E00DDD92A /* LaunchScreen.storyboard */; };
+		44FDE2651D3582CD00DDD92A /* ClinicService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FDE2641D3582CD00DDD92A /* ClinicService.swift */; };
+		44FDE2671D358D7600DDD92A /* clinicList.json in Resources */ = {isa = PBXBuildFile; fileRef = 44FDE2661D358D7600DDD92A /* clinicList.json */; };
+		44FDE2691D35F47600DDD92A /* ClinicTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FDE2681D35F47600DDD92A /* ClinicTypes.swift */; };
+		44FDE26B1D36C8AF00DDD92A /* ClinicsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FDE26A1D36C8AF00DDD92A /* ClinicsViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		44FDE24F1D357D5E00DDD92A /* Clinics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clinics.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		44FDE2521D357D5E00DDD92A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		44FDE2541D357D5E00DDD92A /* ClinicCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClinicCollectionViewController.swift; sourceTree = "<group>"; };
+		44FDE2571D357D5E00DDD92A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		44FDE2591D357D5E00DDD92A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		44FDE25C1D357D5E00DDD92A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		44FDE25E1D357D5E00DDD92A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44FDE2641D3582CD00DDD92A /* ClinicService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClinicService.swift; sourceTree = "<group>"; };
+		44FDE2661D358D7600DDD92A /* clinicList.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = clinicList.json; sourceTree = "<group>"; };
+		44FDE2681D35F47600DDD92A /* ClinicTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClinicTypes.swift; sourceTree = "<group>"; };
+		44FDE26A1D36C8AF00DDD92A /* ClinicsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClinicsViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44FDE24C1D357D5E00DDD92A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44FDE2461D357D5E00DDD92A = {
+			isa = PBXGroup;
+			children = (
+				44FDE2511D357D5E00DDD92A /* Clinics */,
+				44FDE2501D357D5E00DDD92A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		44FDE2501D357D5E00DDD92A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44FDE24F1D357D5E00DDD92A /* Clinics.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44FDE2511D357D5E00DDD92A /* Clinics */ = {
+			isa = PBXGroup;
+			children = (
+				44FDE2521D357D5E00DDD92A /* AppDelegate.swift */,
+				44FDE2541D357D5E00DDD92A /* ClinicCollectionViewController.swift */,
+				44FDE26A1D36C8AF00DDD92A /* ClinicsViewModel.swift */,
+				44FDE2641D3582CD00DDD92A /* ClinicService.swift */,
+				44FDE2681D35F47600DDD92A /* ClinicTypes.swift */,
+				44FDE2561D357D5E00DDD92A /* Main.storyboard */,
+				44FDE2591D357D5E00DDD92A /* Assets.xcassets */,
+				44FDE25B1D357D5E00DDD92A /* LaunchScreen.storyboard */,
+				44FDE25E1D357D5E00DDD92A /* Info.plist */,
+				44FDE2661D358D7600DDD92A /* clinicList.json */,
+			);
+			path = Clinics;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44FDE24E1D357D5E00DDD92A /* Clinics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44FDE2611D357D5E00DDD92A /* Build configuration list for PBXNativeTarget "Clinics" */;
+			buildPhases = (
+				44FDE24B1D357D5E00DDD92A /* Sources */,
+				44FDE24C1D357D5E00DDD92A /* Frameworks */,
+				44FDE24D1D357D5E00DDD92A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Clinics;
+			productName = Clinics;
+			productReference = 44FDE24F1D357D5E00DDD92A /* Clinics.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44FDE2471D357D5E00DDD92A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Mark Sanvitale";
+				TargetAttributes = {
+					44FDE24E1D357D5E00DDD92A = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 44FDE24A1D357D5E00DDD92A /* Build configuration list for PBXProject "Clinics" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 44FDE2461D357D5E00DDD92A;
+			productRefGroup = 44FDE2501D357D5E00DDD92A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44FDE24E1D357D5E00DDD92A /* Clinics */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44FDE24D1D357D5E00DDD92A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44FDE25D1D357D5E00DDD92A /* LaunchScreen.storyboard in Resources */,
+				44FDE2671D358D7600DDD92A /* clinicList.json in Resources */,
+				44FDE25A1D357D5E00DDD92A /* Assets.xcassets in Resources */,
+				44FDE2581D357D5E00DDD92A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44FDE24B1D357D5E00DDD92A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44FDE2651D3582CD00DDD92A /* ClinicService.swift in Sources */,
+				44FDE26B1D36C8AF00DDD92A /* ClinicsViewModel.swift in Sources */,
+				44FDE2551D357D5E00DDD92A /* ClinicCollectionViewController.swift in Sources */,
+				44FDE2531D357D5E00DDD92A /* AppDelegate.swift in Sources */,
+				44FDE2691D35F47600DDD92A /* ClinicTypes.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		44FDE2561D357D5E00DDD92A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44FDE2571D357D5E00DDD92A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		44FDE25B1D357D5E00DDD92A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44FDE25C1D357D5E00DDD92A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		44FDE25F1D357D5E00DDD92A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		44FDE2601D357D5E00DDD92A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44FDE2621D357D5E00DDD92A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Clinics/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sanvitale.Clinics;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		44FDE2631D357D5E00DDD92A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Clinics/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sanvitale.Clinics;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44FDE24A1D357D5E00DDD92A /* Build configuration list for PBXProject "Clinics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44FDE25F1D357D5E00DDD92A /* Debug */,
+				44FDE2601D357D5E00DDD92A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44FDE2611D357D5E00DDD92A /* Build configuration list for PBXNativeTarget "Clinics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44FDE2621D357D5E00DDD92A /* Debug */,
+				44FDE2631D357D5E00DDD92A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 44FDE2471D357D5E00DDD92A /* Project object */;
+}

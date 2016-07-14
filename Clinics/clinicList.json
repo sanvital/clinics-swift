@@ -1,0 +1,82 @@
+ [{
+  "clinicalType": "Imaging",
+  "recommendations": [{
+                      "id": "1",
+                      "name": "Imaging 1",
+                      "preferred": false,
+                      "location": {
+                      "streetName": "1800 NE 2nd Ave",
+                      "city": "Portland",
+                      "stateCode": "OR",
+                      "postalCode": "97212",
+                      "locationDistance": 1.3,
+                      "geoLocation": {
+                      "longitude": -122.66364,
+                      "latitude": 45.535794
+                      }}}, {
+                      "providerId": "2",
+                      "name": "Imaging 2",
+                      "preferred": false,
+                      "location": {
+                      "streetName": "541 NE 20th Ave Fl 2",
+                      "city": "Portland",
+                      "stateCode": "OR",
+                      "postalCode": "97232",
+                      "locationDistance": 1.5,
+                      "geoLocation": {
+                      "longitude": -122.6455,
+                      "latitude": 45.526825
+                      }}}, {
+                      "id": "3",
+                      "name": "Imaging 3",
+                      "preferred": false,
+                      "location": {
+                      "streetName": "233 NE 102nd Ave",
+                      "city": "Portland",
+                      "stateCode": "OR",
+                      "postalCode": "97220",
+                      "locationDistance": 5.6,
+                      "geoLocation": {
+                      "longitude": -122.55831,
+                      "latitude": 45.522805
+                      }}}, {
+                      "id": "4",
+                      "name": "Imaging 4",
+                      "preferred": false,
+                      "location": {
+                      "streetName": "9200 SE 91st Ave #330",
+                      "city": "Happy Valley",
+                      "stateCode": "OR",
+                      "postalCode": "97086",
+                      "locationDistance": 6.6,
+                      "geoLocation": {
+                      "longitude": -122.56978,
+                      "latitude": 45.456666
+                      }}}, {
+                      "id": "5",
+                      "name": "Imaging 5",
+                      "preferred": false,
+                      "location": {
+                      "streetName": "9370 SW Greenburg Rd",
+                      "city": "Portland",
+                      "stateCode": "OR",
+                      "postalCode": "97223",
+                      "locationDistance": 6.7,
+                      "geoLocation": {
+                      "longitude": -122.77428,
+                      "latitude": 45.452117 
+                      }}}, {
+                      "id": "6",
+                      "name": "Imaging 6",
+                      "preferred": false,
+                      "location": {
+                      "streetName": "8950 SW Nimbus Ave",
+                      "city": "Beaverton",
+                      "stateCode": "OR",
+                      "postalCode": "97008",
+                      "locationDistance": 6.9,
+                      "geoLocation": {
+                      "longitude": -122.78961,
+                      "latitude": 45.459048
+                      }}}]
+  }]

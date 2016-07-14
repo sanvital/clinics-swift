@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="14F1713" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Su3-QJ-BUS">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Clinics-->
+        <scene sceneID="UHc-V4-eBr">
+            <objects>
+                <collectionViewController title="Clinics" id="bBQ-80-tUB" customClass="ClinicCollectionViewController" customModule="Clinics" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="xQn-Kh-R4Z">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="shn-YP-2CD">
+                            <size key="itemSize" width="222" height="86"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ClinicListCell" id="yEW-xb-tga" customClass="ClinicListCell" customModule="Clinics" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="64" width="222" height="86"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="222" height="86"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Clinic Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YnU-9p-z8P">
+                                            <rect key="frame" x="20" y="20" width="182" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Is Preferred:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QRq-Xn-Kns">
+                                            <rect key="frame" x="40" y="45" width="94" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Yes/No" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SA3-oG-COI" userLabel="Yes/No">
+                                            <rect key="frame" x="140" y="45" width="62" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="trailingMargin" secondItem="YnU-9p-z8P" secondAttribute="trailing" constant="12" id="ANc-a6-wV2"/>
+                                    <constraint firstItem="YnU-9p-z8P" firstAttribute="leading" secondItem="yEW-xb-tga" secondAttribute="leadingMargin" constant="12" id="Les-8t-0Rn"/>
+                                    <constraint firstItem="SA3-oG-COI" firstAttribute="leading" secondItem="QRq-Xn-Kns" secondAttribute="trailing" constant="6" id="Rxv-DP-IvL"/>
+                                    <constraint firstItem="SA3-oG-COI" firstAttribute="top" secondItem="YnU-9p-z8P" secondAttribute="bottom" constant="4" id="VBI-cc-nVh"/>
+                                    <constraint firstItem="YnU-9p-z8P" firstAttribute="top" secondItem="yEW-xb-tga" secondAttribute="topMargin" constant="12" id="X6H-EG-XXv"/>
+                                    <constraint firstItem="QRq-Xn-Kns" firstAttribute="top" secondItem="YnU-9p-z8P" secondAttribute="bottom" constant="4" id="hZS-Ep-SeM"/>
+                                    <constraint firstItem="QRq-Xn-Kns" firstAttribute="leading" secondItem="YnU-9p-z8P" secondAttribute="leading" constant="20" id="nkK-tw-Tfl"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="nameLabel" destination="YnU-9p-z8P" id="t1P-x4-Ot7"/>
+                                    <outlet property="preferredLabel" destination="SA3-oG-COI" id="QIX-0r-lUS"/>
+                                    <segue destination="mJm-r5-61z" kind="show" identifier="ShowClinicDetail" id="qNS-A6-ggF"/>
+                                </connections>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="bBQ-80-tUB" id="ysl-dQ-itM"/>
+                            <outlet property="delegate" destination="bBQ-80-tUB" id="897-o7-7AT"/>
+                        </connections>
+                    </collectionView>
+                    <navigationItem key="navigationItem" id="0Xe-Od-FW7"/>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QMv-2j-aLa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="817" y="-961"/>
+        </scene>
+        <!--Clinic Details-->
+        <scene sceneID="Aul-9Q-Un6">
+            <objects>
+                <viewController title="Clinic Details" modalPresentationStyle="pageSheet" id="mJm-r5-61z" customClass="ClinicDetailViewController" customModule="Clinics" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="gD8-kM-Ou3"/>
+                        <viewControllerLayoutGuide type="bottom" id="2ap-1L-yTD"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Sm3-4Y-G2K">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Street" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Y4-mK-8an">
+                                <rect key="frame" x="20" y="80" width="286" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="City, State" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wv3-C9-tBf">
+                                <rect key="frame" x="24" y="107" width="286" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Zip" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kfb-eZ-vpt">
+                                <rect key="frame" x="24" y="132" width="286" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ll9-dF-V3I">
+                                <rect key="frame" x="20" y="165" width="72" height="30"/>
+                                <state key="normal" title="Show Map"/>
+                                <connections>
+                                    <segue destination="s5v-7L-nds" kind="show" identifier="ShowClinicMap" id="OKc-Zq-Is7"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wv3-C9-tBf" firstAttribute="top" secondItem="8Y4-mK-8an" secondAttribute="bottom" constant="6" id="CUy-4g-3cd"/>
+                            <constraint firstItem="kfb-eZ-vpt" firstAttribute="top" secondItem="wv3-C9-tBf" secondAttribute="bottom" constant="4" id="Pdt-Db-1O5"/>
+                            <constraint firstItem="kfb-eZ-vpt" firstAttribute="leading" secondItem="wv3-C9-tBf" secondAttribute="leading" id="ZYk-cg-3mB"/>
+                            <constraint firstItem="8Y4-mK-8an" firstAttribute="top" secondItem="gD8-kM-Ou3" secondAttribute="bottom" constant="16" id="fmh-I8-tiw"/>
+                            <constraint firstItem="Ll9-dF-V3I" firstAttribute="top" secondItem="kfb-eZ-vpt" secondAttribute="bottom" constant="12" id="lRD-Dw-JeV"/>
+                            <constraint firstItem="wv3-C9-tBf" firstAttribute="leading" secondItem="Sm3-4Y-G2K" secondAttribute="leadingMargin" constant="4" id="rpz-90-yWO"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="cityStateLabel" destination="wv3-C9-tBf" id="mXB-vT-YSr"/>
+                        <outlet property="streetLabel" destination="8Y4-mK-8an" id="4EB-62-nA1"/>
+                        <outlet property="zipcodeLabel" destination="kfb-eZ-vpt" id="yfo-nZ-HJL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gWD-PM-W2m" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1493" y="-882"/>
+        </scene>
+        <!--Map-->
+        <scene sceneID="JUz-Vr-I8A">
+            <objects>
+                <viewController title="Map" id="s5v-7L-nds" sceneMemberID="viewController">
+                    <mapView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" id="oV5-HL-JKF">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </mapView>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kzk-kR-rlM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2190" y="-807"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="i93-4U-Zkl">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Su3-QJ-BUS" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="8YM-C5-aDc">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="bBQ-80-tUB" kind="relationship" relationship="rootViewController" id="5BD-iz-3xo"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7go-wt-Xrx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137" y="-1024"/>
+        </scene>
+    </scenes>
+</document>
