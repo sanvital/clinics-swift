@@ -26,16 +26,13 @@ class ClinicService {
     }
     
     private var clinics: [Clinic]? {
-        var result: [Clinic]?
         if let clinicDictArray = self.simulatedServerResponse as? [[String : AnyObject]] {
-            result = [Clinic]()
-            for clinicJsonDict in clinicDictArray {
-                if let clinic = Clinic(jsonDict: clinicJsonDict) {
-                    result?.append(clinic)
-                }
-            }
+            // Response is non-nil/legit. Transform the clinic dictionaries into our Clinic type.
+            return clinicDictArray.flatMap({ Clinic(jsonDict: $0) })
         }
-        return result
+        
+        // Server response is nil, which indicates an error/failure at the base (fetch data) level.
+        return nil
     }
     
     private var simulatedServerResponse: [AnyObject]? {
